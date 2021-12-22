@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-image: url('https://images.unsplash.com/photo-1586075010923-2dd4570fb338?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
+    align-items: center;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 120%;
+}
+
+.container{
+    background:  #000000d0;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 800px;
+    margin: 1em;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+#input, #add{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 6vh;
+}
+.input{
+    padding: 5px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: inherit;
+    border-radius: 10px;
+    width: 70vh;
+    border: none;
+}
+
+.addsth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+}
+
+.todo {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    align-content: center;
+    justify-content: center;
+    inline-size: 750px;
+    overflow-wrap: break-word;
+}
+
+
+#demo {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    min-height: 8vh;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-self: stretch;
+    min-height: 8vh;
+    background-color: #7a7a7a2b;
+}
+.navlinks{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.navlinks li{
+    list-style: none;
+}
+.navlinks a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 40px;
+}
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 35px;
+    width: 35px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+button:hover {
+    background: #7c7c7c6b;
+}
